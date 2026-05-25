@@ -35,8 +35,7 @@ management:
       prometheus:
         enabled: true
   tracing:
-    sampling:
-      probability: 1.0
+    enabled: false   # 👈 ADD THIS LINE
 
 springdoc:
   api-docs:
